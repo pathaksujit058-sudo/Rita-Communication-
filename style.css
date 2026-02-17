@@ -1,0 +1,139 @@
+/* -------------------- Global Styles -------------------- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f6f8fa; /* light gray for modern look */
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #1d4ed8; /* bright blue links */
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* -------------------- Header -------------------- */
+header {
+    background-color: #1d4ed8; /* strong blue for trust */
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+header h1 {
+    margin: 10px 0 5px;
+    font-size: 2.2rem;
+}
+
+header p {
+    font-size: 1rem;
+}
+
+/* -------------------- Navigation -------------------- */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #2563eb; /* lighter blue for navbar */
+    padding: 12px 0;
+    flex-wrap: wrap;
+}
+
+nav a {
+    margin: 5px 15px;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s;
+}
+nav a:hover {
+    color: #fcd34d; /* highlight yellow on hover */
+}
+
+/* -------------------- Section Styles -------------------- */
+section {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #1d4ed8;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+/* -------------------- Services Grid -------------------- */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.service-card {
+    background-color: #eef2ff; /* soft blue card */
+    padding: 20px 15px;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.service-card img {
+    width: 55px;
+    height: 55px;
+    margin-bottom: 12px;
+}
+
+/* -------------------- Contact Section -------------------- */
+.contact {
+    text-align: center;
+}
+.contact p, .contact a {
+    margin: 8px 0;
+    font-size: 1rem;
+}
+
+/* -------------------- Footer -------------------- */
+footer {
+    text-align: center;
+    padding: 25px 10px;
+    background-color: #1d4ed8;
+    color: white;
+    font-size: 1rem;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* -------------------- Responsive -------------------- */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+    header h1 {
+        font-size: 1.8rem;
+    }
+    section {
+        padding: 20px;
+    }
+}

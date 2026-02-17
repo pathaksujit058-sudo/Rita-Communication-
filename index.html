@@ -1,0 +1,246 @@
+<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rita Communication - All Services in One Place</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Global Styles */
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f6f8fa;
+      color: #333;
+    }
+    a { text-decoration: none; color: #1d4ed8; }
+    a:hover { text-decoration: underline; }
+
+    /* Header */
+    header {
+      background-color: #1d4ed8; /* Blue theme for trust */
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header img {
+      width: 100px;
+      height: auto;
+      border-radius: 10px;
+    }
+    header h1 {
+      margin: 10px 0 5px;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 0;
+      font-size: 1rem;
+    }
+
+    /* Navigation */
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #2563eb;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      font-weight: 600;
+    }
+
+    /* Section Styles */
+    section {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      color: #1d4ed8;
+      margin-bottom: 15px;
+    }
+
+    /* Cards for services */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .service-card {
+      background-color: #eef2ff;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .service-card img {
+      width: 50px;
+      margin-bottom: 10px;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1d4ed8;
+      color: white;
+    }
+
+    /* Contact Info */
+    .contact p, .contact a {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="https://via.placeholder.com/100x100.png?text=Logo" alt="Rita Communication Logo">
+    <h1>Rita Communication</h1>
+    <p>(Proprietor: Sujit Pathak) | Main Road, Unwas | 📞 9220883956</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#government">Government Services</a>
+    <a href="#transport">Transport</a>
+    <a href="#passport">Passport</a>
+    <a href="#tax">Tax & Business</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Government Services -->
+  <section id="government">
+    <h2>📑 Government Document Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <img src="https://img.icons8.com/ios-filled/50/2563eb/aadhaar.png" alt="Aadhaar">
+        <p>Aadhaar Card (New/Update)</p>
+      </div>
+      <div class="service-card">
+        <img src="https://img.icons8.com/ios-filled/50/2563eb/pan-card.png" alt="PAN">
+        <p>PAN Card</p>
+      </div>
+      <div class="service-card">
+        <img src="https://img.icons8.com/ios-filled/50/2563eb/ration-card.png" alt="Ration">
+        <p>Ration Card</p>
+      </div>
+      <div class="service-card">
+        <img src="https://img.icons8.com/ios-filled/50/2563eb/certificate.png" alt="Certificates">
+        <p>Birth & Death Certificates</p>
+      </div>
+      <div class="service-card">
+        <img src="https://img.icons8.com/ios-filled/50/2563eb/home-page.png" alt="Residence">
+        <p>Residence, Caste & Income Certificates</p>
+      </div>
+      <div class="service-card">
+        <img src="https://img.icons8.com/ios-filled/50/2563eb/pension.png" alt="Pension">
+        <p>Pension & Govt Schemes</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Transport Services -->
+  <section id="transport">
+    <h2>🚗 Transport Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <img src="https://img.icons8.com/ios-filled/50/2563eb/driver-license.png" alt="DL">
+        <p>Driving License (New/Renewal)</p>
+      </div>
+      <div class="service-card">
+        <img src="https://img.icons8.com/ios-filled/50/2563eb/learning.png" alt="Learner License">
+        <p>Learner License</p>
+      </div>
+      <div class="service-card">
+        <img src="https://img.icons8.com/ios-filled/50/2563eb/car.png" alt="Vehicle Services">
+        <p>All Vehicle-Related Services</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Passport Services -->
+  <section id="passport">
+    <h2>🌍 Passport Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <img src="https://img.icons8.com/ios-filled/50/2563eb/passport.png" alt="Passport">
+        <p>New Passport Application</p>
+      </div>
+      <div class="service-card">
+        <img src="https://img.icons8.com/ios-filled/50/2563eb/renewal.png" alt="Renewal">
+        <p>Renewal & Correction</p>
+      </div>
+      <div class="service-card">
+        <img src="https://img.icons8.com/ios-filled/50/2563eb/appointment.png" alt="Appointment">
+        <p>Appointment Booking</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tax & Business -->
+  <section id="tax">
+    <h2>💼 Tax & Business Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <img src="https://img.icons8.com/ios-filled/50/2563eb/gst.png" alt="GST">
+        <p>GST Registration & Returns</p>
+      </div>
+      <div class="service-card">
+        <img src="https://img.icons8.com/ios-filled/50/2563eb/income-tax.png" alt="ITR">
+        <p>ITR Filing</p>
+      </div>
+      <div class="service-card">
+        <img src="https://img.icons8.com/ios-filled/50/2563eb/business.png" alt="Business">
+        <p>Business Registration</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Services -->
+  <section id="education">
+    <h2>🎓 Education Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <img src="https://img.icons8.com/ios-filled/50/2563eb/student-registration.png" alt="Education Loan">
+        <p>Education Loan Assistance</p>
+      </div>
+      <div class="service-card">
+        <img src="https://img.icons8.com/ios-filled/50/2563eb/scholarship.png" alt="Scholarship">
+        <p>Scholarship Forms</p>
+      </div>
+      <div class="service-card">
+        <img src="https://img.icons8.com/ios-filled/50/2563eb/exam.png" alt="Exam">
+        <p>Online Exam Forms</p>
+      </div>
+      <div class="service-card">
+        <img src="https://img.icons8.com/ios-filled/50/2563eb/college.png" alt="Recruitment">
+        <p>College & Government Recruitment Forms</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>📞 Contact</h2>
+    <p>Mobile: 9220883956</p>
+    <p>Address: Main Road, Unwas</p>
+    <p>Email: example@email.com</p>
+    <p>Follow us on <a href="#">Twitter</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>⚡ Fast Service | 💯 Reliable | 📲 Online Facilities Available</p>
+    <p>© 2026 Rita Communication. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
